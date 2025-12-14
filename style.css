@@ -9,3 +9,19 @@
 .post-wrapper h1, h2 {
     margin-bottom: 40px;
 }
+
+.post-wrapper blockquote {
+    border-left: 3px solid black;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: rgb(236, 236, 236);
+}
+
+.post-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+}
